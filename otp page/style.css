@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+/*root*/
+:root{
+    --text-color:#f6f2f2;
+    --primary-color:rgb(13, 14, 20);
+    --secondary-color:rgb(22, 25, 38);
+}
+
+.container{
+    width: 100vw;
+    height: 95vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+.wrapper{
+    width: 80%;
+    height: 80%;
+    border: black 1px solid;
+    background-color:var(--secondary-color) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+
+}
+header{
+    background-color: var(--primary-color);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+   
+    
+}
+#webtitle{
+    color: var(--text-color);
+}
+
+
+.otpcard{
+    width: 45%;
+    
+    height: 90%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    box-sizing: border-box;
+ 
+   
+    
+}
+
+
+.animationcard{
+    width: 45%;
+    
+    height: 90%;
+}
+
+
+
+
+#emailconfirmation ,#otppara {
+    color:var(--text-color);
+    margin-left: 10%;
+    
+}
+#otppara {
+   margin-top: 25px;
+}
+
+#OTP{
+    margin-top: 40px;
+    width: 80%;
+    height: 30px;
+    font-size: 1.2rem;
+    background-color: var(--seondary-color);
+    border: none;
+    border-bottom: rgb(122, 122, 122)  1px solid;
+    align-self: center;
+
+
+}
+#dummymail{
+    font-size: .8rem;
+    color: #4f72b7;
+    margin-left: 10%;
+}
+#emailConfirmationButton{
+    width: 50%;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: rgb(74, 74, 231);
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 35px;
+    border: none;
+    transition: all ease-out .15s;
+   
+
+}
+#emailConfirmationButton:hover{
+    transform: scale(1.05);
+}
+
+  .swiper{
+    height: 100%;
+    width: 100%;
+  }
+  .swiper-slide img {
+    border-radius: 15px;
+  }
+  .resendotp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: rgb(128, 127, 127);
+    font-weight: 600;
+    margin-top: 40px;
+
+    #Resend{
+        font-size: 1.2rem;
+    }
+    #Resend:hover{
+        transform: scale(1.1);
+        color: rgb(131, 98, 223);
+    }
+
+  }
+  @media (max-width:1056px){
+    .wrapper{
+        width: 90%;
+
+
+    }
+}
+    @media (max-width:1056px){
+        .animationcard{
+            display: none;
+        }
+        .otpcard{
+            width: 100%;
+        }
+        .wrapper{
+            width: 60%;
+        }
+        
+    }
+    @media (max-width:1056px){
+        .wrapper{
+            width: 80%;
+        }
+    }
+    @media (max-width:600px){
+        .wrapper{
+            width: 90%;
+        }
+
+    }
+  
