@@ -8,23 +8,8 @@
 :root{
     --text-color:#f6f2f2;
     --primary-color:rgb(13, 14, 20);
-    --secondary-color:rgb(22, 25, 38);
+    --secondary-color:rgba(22, 25, 38, 0.733);
 }
-.font-1 {
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.font-2 {
-    font-family: "Nunito Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 401;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100,
-      "YTLC" 500;
-  }
 
 .container{
     width: 100vw;
@@ -34,7 +19,10 @@
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
-    
+    background-image: url(images/pexels-pixabay-268533.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 .wrapper{
@@ -48,7 +36,7 @@
     align-items: center;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
     backdrop-filter: blur(10px);
-   
+
 }
 header{
     background-color: var(--primary-color);

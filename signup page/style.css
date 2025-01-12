@@ -11,6 +11,23 @@
     --secondary-color:rgb(22, 25, 38);
 }
 
+.font-1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-2 {
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 401;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+
+
 .container{
     width: 100vw;
     height: 95vh;

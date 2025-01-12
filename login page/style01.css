@@ -1,18 +1,17 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-
+    
 }
-
 /*root*/
-:root {
-    --text-color: #f6f2f2;
-    --primary-color: rgb(13, 14, 20);
-    --secondary-color: rgb(22, 25, 38);
+:root{
+    --text-color:#f6f2f2;
+    --primary-color:rgb(13, 14, 20);
+    --secondary-color:rgba(22, 25, 38, 0.7);
 }
 
-.container {
+.container{
     width: 100vw;
     height: 95vh;
     overflow-x: hidden;
@@ -20,71 +19,54 @@
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
+    background-image: url(images/pexels-pixabay-268533.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
-.font-1 {
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.font-2 {
-    font-family: "Nunito Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 401;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100,
-      "YTLC" 500;
-  }
-
-.wrapper {
-    width: 60%;
-    height: 70%;
- 
-    background-color: var(--secondary-color);
+.wrapper{
+    width: 80%;
+    height: 80%;
+    background-color:var(--secondary-color) ;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+    backdrop-filter: blur(10px);
 
 }
-
-header {
+header{
     background-color: var(--primary-color);
     height: 5vh;
     display: flex;
     align-items: center;
-
-
+   
+    
 }
-
-#webtitle {
+#webtitle{
     color: var(--text-color);
 }
 
 /*LOGIN CARD CSS*/
-.logincard {
+.logincard{
     width: 45%;
-
+    
     height: 90%;
     padding: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    
 }
 
-.signup {
+.signup{
     display: flex;
     gap: 7px;
     margin-left: 10%;
 }
-
-.animationcard {
+.animationcard{
     width: 45%;
-
+    
     height: 90%;
 }
 
@@ -92,30 +74,16 @@ header {
 
 
 #logintext {
-    color: var(--text-color);
+    color:var(--text-color);
     margin-left: 10%;
 }
-
-#newuser {
-    color: var(--text-color);
-
+#newuser{
+    color:var(--text-color);
+    
 }
-
-#signup {
+#signup{
     text-decoration: none;
 }
-
-input {
-    color: rgb(255, 255, 255); /* Actual input text color */
-    font-size: 16px;
-  }
-  
-  /* Style for the placeholder text */
-  input::placeholder {
-    color: gray; /* Placeholder text color */
-    font-size: 16px;
-  }
-  
 #email {
     margin-top: 40px;
     width: 80%;
@@ -123,12 +91,11 @@ input {
     font-size: 1.2rem;
     background-color: var(--seondary-color);
     border: none;
-    border-bottom: rgb(122, 122, 122) 1px solid;
+    border-bottom: rgb(122, 122, 122)  1px solid;
     align-self: center;
 
 }
-
-#Password {
+#Password{
     margin-top: 30px;
     width: 80%;
     height: 30px;
@@ -138,10 +105,9 @@ input {
     border-bottom: rgb(122, 122, 122) 1px solid;
     align-self: center;
 }
-
-#loginbutton {
+#loginbutton{
     width: 50%;
-    height: 10%;
+    height: 35px;
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-color);
@@ -151,37 +117,31 @@ input {
     margin-top: 35px;
     border: none;
     transition: all ease-out .15s;
-
+   
 
 }
-
-#loginbutton:hover {
+#loginbutton:hover{
     transform: scale(1.05);
 }
-
-#or {
-    font-size: 0.9rem;
-    color: rgb(122, 122, 122);
-    padding: 0px 5px;
-
-
+#or{
+    font-size: 1.3rem;
+    color:  rgb(122, 122, 122);
+   padding: 0px 5px;
+  
+   
 }
-
-.or1,
-.or2 {
+.or1 ,.or2 {
     width: 40%;
     border-bottom: rgb(122, 122, 122) 1px solid;
-
+    
 }
-
-.orboundary {
+.orboundary{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top:30px ;
     align-items: center;
 }
-
-.googlesignin {
+.googlesignin{
     display: flex;
     gap: 20px;
     background-color: rgb(74, 74, 231);
@@ -196,66 +156,61 @@ input {
     margin-top: 30px;
     align-self: center;
 }
-
 .googlesignin img {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
-
-#googlebutton {
+#googlebutton{
     width: fit-content;
     height: fit-content;
     align-self: center;
     transition: all ease-out .15s;
 }
-
-#googlebutton:hover {
+#googlebutton:hover{
     transform: scale(1.05);
 }
-
-.swiper {
+  .swiper{
     height: 100%;
     width: 100%;
-}
-
-.swiper-slide img {
+  }
+  .swiper-slide img {
     border-radius: 15px;
     height: 90%;
     width: 90%;
-}
+    
+  }
+  
 
-@media (max-width:1056px) {
-    .wrapper {
+  
+
+  @media (max-width:1056px){
+    .wrapper{
         width: 90%;
 
 
     }
 }
-
-@media (max-width:1056px) {
-    .animationcard {
-        display: none;
+    @media (max-width:1056px){
+        .animationcard{
+            display: none;
+        }
+        .logincard{
+            width: 100%;
+        }
+        .wrapper{
+            width: 60%;
+        }
+        
     }
-
-    .logincard {
-        width: 100%;
+    @media (max-width:1056px){
+        .wrapper{
+            width: 80%;
+        }
     }
+    @media (max-width:600px){
+        .wrapper{
+            width: 90%;
+        }
 
-    .wrapper {
-        width: 60%;
     }
-
-}
-
-@media (max-width:1056px) {
-    .wrapper {
-        width: 80%;
-    }
-}
-
-@media (max-width:600px) {
-    .wrapper {
-        width: 90%;
-    }
-
-}
+  
